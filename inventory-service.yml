@@ -4,9 +4,9 @@ spring:
   datasource: 
     driver-class-name: com.mysql.jdbc.Driver
     username: root
-    password: ygz123
-    url: jdbc:mysql://localhost:3307/inventorydb?createDatabaseIfNotExists=true
-  jpa: 
+    password: 'ygz123'
+    url: jdbc:mysql://localhost:3307/inventorydb?createDatabaseIfNotExist=true
+  jpa:                                          
     properties: 
       hibernate: 
         dialect: org.hibernate.dialect.MySQLDialect
