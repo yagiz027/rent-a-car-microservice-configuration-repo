@@ -1,15 +1,17 @@
 spring: 
   application: 
     name: INVENTORY-SERVICE
-  datasource: 
-    driver-class-name: com.mysql.jdbc.Driver
+  datasource:
     username: root
     password: 'ygz123'
     url: jdbc:mysql://localhost:3307/inventorydb?createDatabaseIfNotExist=true
   jpa:                                          
     properties: 
       hibernate: 
-        dialect: org.hibernate.dialect.MySQLDialect
-        ddl-auto: update
+        dialect: org.hibernate.dialect.MySQL5Dialect
+    hibernate:
+      ddl-auto: update
 server: 
   port: 8501
+
+  
