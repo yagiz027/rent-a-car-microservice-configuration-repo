@@ -13,5 +13,16 @@ spring:
     hibernate:
       ddl-auto: update
 server:
-  port: 8501
+  port: 0
+
+#Eureka client configuration for the inventory-service
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true  
+    service-url:
+      default-zone: http://localhost:8761/eureka
+    instance:
+      instance-id: ${spring.application.name}:${random.value}
+      prefer-ip-address: false
   
