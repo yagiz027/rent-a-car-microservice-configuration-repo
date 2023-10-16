@@ -4,7 +4,7 @@ spring:
   data:
     mongodb:
       database: invoiceDb
-      uri: mongodb:/localhost:27018
+      uri: mongodb://localhost:27018
   kafka:
     producer:
       bootstrap-servers: http://localhost:9092
