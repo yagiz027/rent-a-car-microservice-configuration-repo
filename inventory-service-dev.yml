@@ -12,7 +12,7 @@ spring:
         dialect: org.hibernate.dialect.MySQLDialect
     hibernate:
       ddl-auto: update
-#Kafka Configuration
+#Kafka Configuration for inventory-service
   kafka:
     producer:
       bootstrap-servers: http://localhost:9092
