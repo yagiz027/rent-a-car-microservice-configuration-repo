@@ -3,6 +3,7 @@ spring:
     name: INVOICE-SERVICE
   data:
     mongodb:
+      database: invoiceDb
       uri: mongodb:/localhost:27018
   kafka:
     producer:
