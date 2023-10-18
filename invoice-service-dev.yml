@@ -3,7 +3,8 @@ spring:
     name: INVOICE-SERVICE
   data:
     mongodb:
-      uri: mongodb://localhost:27018/invoiceDb
+      database: invoicedb
+      uri: mongodb+srv://dev:dev123@invoicedb.jkhwtqc.mongodb.net/?retryWrites=true&w=majority
   kafka:
     producer:
       bootstrap-servers: http://localhost:9092
