@@ -4,8 +4,8 @@ spring:
   data:
     mongodb:
       database: invoiceDb
-      username: dev
-      password: dev123
+      username: prod
+      password: prod123
       uri: mongodb+srv://<username>:<password>@invoicedb.jkhwtqc.mongodb.net/?retryWrites=true&w=majority
   kafka:
     producer:
