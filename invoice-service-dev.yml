@@ -4,9 +4,7 @@ spring:
   data:
     mongodb:
       database: invoiceDb
-      username: dev
-      password: dev123
-      uri: mongodb+srv://<username>:<password>@invoicedb.jkhwtqc.mongodb.net/?retryWrites=true&w=majority
+      uri: mongodb+srv://dev:dev123@invoicedb.jkhwtqc.mongodb.net/?retryWrites=true&w=majority
   kafka:
     producer:
       bootstrap-servers: http://localhost:9092
